@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Noto+Sans+Thai+Looped:wght@100..900&family=Noto+Sans+Thai:wght@100..900&family=Anuphan:wght@100..700&display=swap");
+
+@theme {
+    --font-geist: "Geist";
+    --font-noto-sans-thai-looped: "Noto Sans Thai Looped";
+    --font-noto-sans-thai: "Noto Sans Thai";
+    --font-anuphan: "Anuphan";
+}
+
+p {
+    @apply text-zinc-900 leading-relaxed
+}
+
+:root {
+    --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
