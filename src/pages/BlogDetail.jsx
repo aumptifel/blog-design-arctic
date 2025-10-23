@@ -94,7 +94,7 @@ export default function BlogDetail() {
                             </div>
                             {/* Embed Figma Preview */}
                             {blog.figmaEmbedUrl && (
-                                <div className="w-full sm:max-w-5xl mt-10 aspect-video">
+                                <div className="w-full sm:max-w-5xl mt-10 aspect-[9/16] md:aspect-video">
                                     <iframe
                                         src={blog.figmaEmbedUrl}
                                         className="w-full h-full"
